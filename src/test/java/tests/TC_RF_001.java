@@ -14,6 +14,8 @@ public class TC_RF_001 extends BaseTest {
   @Test
   public void verifyRigisterWithmandatoryFields() {
 	  
+	  test = extent.createTest("Verify Registering an Account by Mandatory Fields");
+	  
 	  HomePage homePg=new HomePage(driver);
 	  RegisterPage registerPg=new RegisterPage(driver);
 	  AccountSuccessPage accountSuccessPg=new AccountSuccessPage(driver);

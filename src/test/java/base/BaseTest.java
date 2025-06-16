@@ -26,7 +26,8 @@ public class BaseTest {
 	 
 	 @BeforeSuite//Executes once before all tests in the suite. 
 	 public void setupExtent() {
-		 ExtentSparkReporter spark=new ExtentSparkReporter("ExtentReports/extentReport.html");
+		 String path = System.getProperty("user.dir") + "/ExtentReports/extentReport.html";
+		 ExtentSparkReporter spark=new ExtentSparkReporter(path);
 		 extent=new ExtentReports();
 		 extent.attachReporter(spark);
 	 }
@@ -46,10 +47,11 @@ public class BaseTest {
       extent.flush();
   }
   
-	/*
-	 * @AfterMethod public void tearDown() { if (driver != null) { driver.quit(); }
-	 * }
-	 */
+	
+	  @AfterMethod
+	  public void tearDown() { if (driver != null) { driver.quit(); }
+	  }
+	 
 
 
 }
