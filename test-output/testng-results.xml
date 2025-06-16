@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-06-16T23:01:14 IST" name="Default suite" finished-at="2025-06-16T23:01:20 IST" duration-ms="6211">
+    <groups>
+    </groups>
+    <test started-at="2025-06-16T23:01:14 IST" name="Default test" finished-at="2025-06-16T23:01:20 IST" duration-ms="6211">
+      <class name="tests.TC_RF_001">
+        <test-method is-config="true" signature="setupExtent()[pri:0, instance:tests.TC_RF_001@3ba987b8]" started-at="2025-06-16T23:01:14 IST" name="setupExtent" finished-at="2025-06-16T23:01:14 IST" duration-ms="233" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupExtent -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.TC_RF_001@3ba987b8]" started-at="2025-06-16T23:01:14 IST" name="setup" finished-at="2025-06-16T23:01:18 IST" duration-ms="3339" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyRigisterWithmandatoryFields()[pri:0, instance:tests.TC_RF_001@3ba987b8]" started-at="2025-06-16T23:01:18 IST" name="verifyRigisterWithmandatoryFields" finished-at="2025-06-16T23:01:20 IST" duration-ms="2836" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRigisterWithmandatoryFields -->
+        <test-method is-config="true" signature="tearDownExtent()[pri:0, instance:tests.TC_RF_001@3ba987b8]" started-at="2025-06-16T23:01:20 IST" name="tearDownExtent" finished-at="2025-06-16T23:01:21 IST" duration-ms="302" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownExtent -->
+      </class> <!-- tests.TC_RF_001 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
